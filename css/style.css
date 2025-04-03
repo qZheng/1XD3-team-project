@@ -5,6 +5,14 @@ body{
     margin: 0px;
     background-color:#ffffff
 }
+
+footer { 
+    background-color: lavender;
+    margin: auto;
+    margin-top: 50px; 
+    padding: 3px;
+    text-align: center;
+}
 #top{
     text-align: center;
     background-color: lavender;
