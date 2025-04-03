@@ -9,6 +9,18 @@ web page and include your name as author.
     <meta charset="utf-8">
     <title>TODO: Title Goes Here</title>
     <link rel="stylesheet" href="css/style.css">
+    <script>
+        let otherCheck = document.getElementById("otherCheck");
+
+        otherCheck.addEventListener("change", function() { 
+            let otherInstrument = document.getElementById("otherInstrument");
+
+            if (this.checked) { 
+                otherInstrument.style.display = "block";
+            }
+        });
+    </script>
+
 </head>
 
 <body>
@@ -73,6 +85,20 @@ web page and include your name as author.
                     <input name="sax" type="checkbox" required>
                     Saxophone
                 </label>
+
+                <label for="otherCheck">
+                    <input name="otherCheck" type="checkbox" required>
+                    Other
+                </label>
+
+                <br/>
+
+                <label for="otherInstrument">
+                    Please enter your other instrument: 
+                </label>
+                <input name="otherInstrument" type="text" required>
+                <br/>
+
 
                 <!-- <label for="password">Password:</label>
                 <input name="password" type="password" required>        -->

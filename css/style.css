@@ -64,6 +64,10 @@ body{
     margin: 10px;
 }
 
+.otherInstrument { 
+    display: none;
+}
+
 #createAccForm { 
     margin: 20px;
     display: flex;
