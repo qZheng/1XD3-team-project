@@ -9,18 +9,7 @@ web page and include your name as author.
     <meta charset="utf-8">
     <title>Sign-up</title>
     <link rel="stylesheet" href="css/style.css">
-    <script>
-        let otherCheck = document.getElementById("otherCheck");
-
-        otherCheck.addEventListener("change", function() { 
-            let otherInstrument = document.getElementById("otherInstrument");
-
-            if (this.checked) { 
-                otherInstrument.style.display = "block";
-            }
-        });
-    </script>
-
+    <script src="js/signup.js"></script>
 </head>
 
 <body>
@@ -86,6 +75,11 @@ web page and include your name as author.
                     Saxophone
                 </label>
 
+                <label for="violin">
+                    <input name="sax" type="checkbox" required>
+                    Saxophone
+                </label>
+
                 <label for="otherCheck">
                     <input name="otherCheck" type="checkbox" required>
                     Other
@@ -93,10 +87,8 @@ web page and include your name as author.
 
                 <br/>
 
-                <label for="otherInstrument">
-                    Please enter your other instrument: 
-                </label>
-                <input name="otherInstrument" type="text" required>
+                <input type="text" name="otherInstrument" id="otherInstrument" class="otherInstrument" placeholder="Specify other instrument" required>
+
                 <br/>
 
 
