@@ -13,23 +13,28 @@ web page and include your name as author.
 
 <body>
     <div id="container">
-        <div id = "top">
+        <div id="top">
             <!-- <img id ="logo" width=60px src="img/logo.png"> -->
-            <h1 id ="title">Compassion Through Music</h1>
+            <h1 id="title">Compassion Through Music</h1>
         </div>
-        <div id="nav"> 
-            <a class ="navlink" href = "index.html"> Home </a>
-            <a class ="navlink" href = "about.html"> About Us </a>
-            <a class ="navlink" href = "contact.html"> Contact Us </a>
-            <a class ="navlink" href = "gallery.html"> Gallery </a>
-            <a class ="navlink" href = "signup.html"> Sign Up </a>
+        <div id="nav">
+            <a class="navlink" href="index.html"> Home </a>
+            <a class="navlink" href="about.html"> About Us </a>
+            <a class="navlink" href="contact.html"> Contact Us </a>
+            <a class="navlink" href="gallery.html"> Gallery </a>
+            <a class="navlink" href="signup.html"> Sign Up </a>
         </div>
         <div id="content">
-            <a class="signupLink" href = "https://www.bouncelife.com/organizations/6688027a425d2c1e1507f766" target="_blank"> Bounce Page </a>
+            <a class="signupLink" href="https://www.bouncelife.com/organizations/6688027a425d2c1e1507f766"
+                target="_blank"> Bounce Page </a>
             <!-- <br> -->
-            <a class="signupLink" href = "https://docs.google.com/spreadsheets/d/102U57t37-4o96pbNlOn8MxyCLf_1-kSq6srF38x6L3I/edit?gid=0#gid=0" target="_blank"> Volunteer Sign-up Sheet </a>
+            <a class="signupLink"
+                href="https://docs.google.com/spreadsheets/d/102U57t37-4o96pbNlOn8MxyCLf_1-kSq6srF38x6L3I/edit?gid=0#gid=0"
+                target="_blank"> Volunteer Sign-up Sheet </a>
             <!-- <br> -->
-            <a  class="signupLink"href = "https://docs.google.com/forms/d/e/1FAIpQLSeC3o6JXU6KN0VsB9SyaK6_aIUXpzE19yX51r9eztIdSSZttA/viewform" target="_blank"> Group Performance Sign-up Sheet </a>
+            <a class="signupLink"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeC3o6JXU6KN0VsB9SyaK6_aIUXpzE19yX51r9eztIdSSZttA/viewform"
+                target="_blank"> Group Performance Sign-up Sheet </a>
 
             <form id="createAccForm" action="nextpage.php" method="post">
                 <label for="firstName">First name:</label>
@@ -37,15 +42,40 @@ web page and include your name as author.
 
                 <label for="lastName">Last name:</label>
                 <input name="lastName" type="text" required>
-        
+
                 <label for="email">Mac Email:</label>
                 <input name="email" type="email" required>
-        
+
                 <label for="confirmEmail">Confirm Mac email:</label>
                 <input name="confirmEmail" type="email" required>
-                
-                <label for="password">Password:</label>
-                <input name="password" type="number" min="0" step="1" required>        
+
+                <label for="guitar">
+                    <input name="guitar" type="checkbox" required>
+                    Guitar
+                </label>
+
+                <label for="piano">
+                    <input name="piano" type="checkbox" required>
+                    Keyboard/Piano
+                </label>
+
+                <label for="voice">
+                    <input name="Voice" type="checkbox" required>
+                    Voice
+                </label>
+
+                <label for="percussion">
+                    <input name="percussion" type="checkbox" required>
+                    Percussion
+                </label>
+
+                <label for="sax">
+                    <input name="sax" type="checkbox" required>
+                    Saxophone
+                </label>
+
+                <!-- <label for="password">Password:</label>
+                <input name="password" type="password" required>        -->
                 <input type="submit">
             </form>
         </div>
