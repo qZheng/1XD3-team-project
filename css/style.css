@@ -63,6 +63,11 @@ body{
 .content{
     margin: 10px;
 }
+
+.createAccForm { 
+    display: block;
+}
+
 .partners{
     display: flex;
     justify-content: center;

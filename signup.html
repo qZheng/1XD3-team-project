@@ -30,6 +30,24 @@ web page and include your name as author.
             <a class="signupLink" href = "https://docs.google.com/spreadsheets/d/102U57t37-4o96pbNlOn8MxyCLf_1-kSq6srF38x6L3I/edit?gid=0#gid=0" target="_blank"> Volunteer Sign-up Sheet </a>
             <!-- <br> -->
             <a  class="signupLink"href = "https://docs.google.com/forms/d/e/1FAIpQLSeC3o6JXU6KN0VsB9SyaK6_aIUXpzE19yX51r9eztIdSSZttA/viewform" target="_blank"> Group Performance Sign-up Sheet </a>
+
+            <form id="createAccForm" action="nextpage.php" method="post">
+                <label for="firstName">First name:</label>
+                <input name="firstName" type="text" required>
+
+                <label for="lastName">Last name:</label>
+                <input name="lastName" type="text" required>
+        
+                <label for="email">Mac Email:</label>
+                <input name="email" type="email" required>
+        
+                <label for="confirmEmail">Confirm Mac email:</label>
+                <input name="confirmEmail" type="email" required>
+                
+                <label for="password">Password:</label>
+                <input name="password" type="number" min="0" step="1" required>        
+                <input type="submit">
+            </form>
         </div>
     </div>
 </body>
