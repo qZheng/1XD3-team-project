@@ -14,6 +14,20 @@ body{
     padding: 10px;
     
 }
+
+.signupLink { 
+    margin: 20px;
+    background-color:#fffae1; 
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.signupLink:hover { 
+    background-color: #e0d49f;
+}
+
 #img{
     margin-right: 50px;
 }
@@ -23,6 +37,7 @@ body{
 }
 .content h2{
     color:rgb(210, 121, 216);
+    margin-top: 10px;
 }
 #nav{
     padding:20px;
