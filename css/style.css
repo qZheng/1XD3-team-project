@@ -64,8 +64,11 @@ body{
     margin: 10px;
 }
 
-.createAccForm { 
-    display: block;
+#createAccForm { 
+    margin: 20px;
+    display: flex;
+    width: 25%;
+    flex-direction: column; 
 }
 
 .partners{
